@@ -12,7 +12,7 @@ GitHub:
 
 DESCRIPTION: 
 
-Muser is a portable multi media player written purely in Java, and stylized with CSS. Currently Muser is only compatible with .mp3 and .wav files, but I hope to eventually make it compatible with other audio formats and file types.
+Muser is a portable multimedia player written purely in Java, and stylized with CSS. Currently Muser is only compatible with .mp3 and .wav files, but I hope to eventually make it compatible with other audio formats and file types.
 
 The GUI is written using JavaFX, and colored with some simple CSS. I hope to pretty it up the future.
 
