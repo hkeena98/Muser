@@ -8,7 +8,7 @@ Date of Release: 2/28/2019
 
 License: MIT
 
-GitHub: 
+GitHub: https://github.com/hkeena98/Muser
 
 DESCRIPTION: 
 
