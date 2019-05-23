@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Begin') {
       steps {
-        sh '''input(\'Compile this code?\')
+        sh '''input \'Compile this code?\'
 '''
       }
     }
