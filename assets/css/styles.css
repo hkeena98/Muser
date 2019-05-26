@@ -1,10 +1,45 @@
+/**
+ *@author: Henry Keena
+ *@version: 1.0
+ *@license: MIT
+ */
+
 .root
 {
 	-fx-background-color: #2C2F33;
-
 }
 
 .menu-bar
 {
 	-fx-background-color: #99AAB5;
+}
+
+.menu-bar .label
+{
+	-fx-text-fill: black;
+}
+
+.context-menu
+{
+	-fx-background-color: #2C2F33;
+}
+
+.context-menu .label
+{
+	-fx-text-fill: white;
+}
+
+.label
+{
+	-fx-text-fill: white;
+}
+
+.button
+{
+	-fx-background-color: #99AAB5;
+}
+
+.slider
+{
+	-fx-color: #2C2F33;
 }
