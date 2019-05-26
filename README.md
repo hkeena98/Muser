@@ -2,9 +2,9 @@
 
 Author: Henry Keena
 
-Release: 0.01
+Release: 1.0
 
-Date of Release: 2/28/2019 
+Date of Release: 5/25/2019 
 
 License: MIT
 
@@ -12,41 +12,38 @@ GitHub: https://github.com/hkeena98/Muser
 
 DESCRIPTION: 
 
-Muser is a portable multimedia player written purely in Java, and stylized with CSS. Currently Muser is only compatible with .mp3 and .wav files, but I hope to eventually make it compatible with other audio formats and file types.
+Muser is a portable multi media player written purely in Java, and stylized with CSS. Currently Muser is only compatible with .mp3 and .wav files, but I hope to eventually make it compatible with other audio formats and file types.
 
-The GUI is written using JavaFX, and colored with some simple CSS. I hope to pretty it up the future.
-
-This release of Muser is REALLY REALLY bare-bones. The UI is also really bare minimum at the moment as well. In truth this is really just a proof of concept at the moment, but I hope to get this going somewhere in the future. But for what is here right now it's pretty good.
-
+The GUI is written using JavaFX, and prettied up with some simple, configurable, CSS.
 
 FILES INCLUDED:
 
 1. Muser.java
-2. styles.css
-3. README.md
-4. LICENSE
-
-CURRENT FEATURES:
-
-1. Full playback of .mp3 and .wav formats.
-2. Generates a full playlist of all the music you have in a selected folder.
-3. Skip or go back to a previously listened to song.
-4. Repeats playlist upon completion of all the loaded songs.
+2. Song.java
+3. PlayList.java
+4. LICENSE.txt
+5. README.md
+6. PNG Icon Files
+7. styles.css
+8. tika-core-1.9.jar
+9. tika-parsers-1.9.jar
+10. compile.sh
 
 TODO:
 
-1. Full Documentation (JavaDocs, etc.)
-2. Make a better GUI
-3. Make repeat song/playlist 
-4. I plan to include the Apache-Tika library for some cool metadata stuff
-5. Song progression bar
-6. Settings menu
-7. A LOT MORE COOLER STUFF
+1. Implement the playlist selection/build system
+2. Make a nicer GUI design
+3. Make a progress bar for the playing song
+4. Implement support for .ogg files, and other sound file formats
+5. Implement jar file building into the compile script
+
+Third-Party Inclusions:
+
+1. PNG icon images are from Celcius Creative: https://www.iconfinder.com/iconsets/music-player-black
+2. Apache Tika Toolkit .jar files: https://tika.apache.org/
+
 
 INSTALLATION:
 
-Muser is written using JavaFX, so depending on the compiler you have just make sure it is compatible.
+The simplest way to install and run Muser, is to run the compile.sh script. You can also create a executable .jar file for Muser, I plan to implement this into the compile script eventually.
 
-Other than that compile it and run it like any other java application.
-
-Or just run the .jar file...
